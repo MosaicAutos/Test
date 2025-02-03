@@ -1,0 +1,229 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #f4f4f4;
+  overflow:auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  padding-top: 20px;
+}
+
+.content {
+  position: relative;
+  max-width: 1000px;
+  width: 90%;
+  aspect-ratio: 1000 / 1070;
+  background-color: white;
+  overflow: visible;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Background and Overlay Images */
+.background-1,
+.header-graphic-1,
+.header-bar-1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.middle-copy-text-1 {
+  position: absolute;
+  width: 70%;
+  height: 70%;
+  left: 14%;
+  top: 3%;
+  object-fit: cover;
+}
+
+.top-copy-text-1{
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  left: 45%;
+	top: -3%;
+	object-fit: cover;
+	
+}
+
+.box-image-1-1 {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  left: 0;
+  top: 1%;
+  object-fit: cover;
+}
+
+/* Linked Elements */
+.number-1-logo-1,
+.website-1,
+.phone-number-1,
+.address-1,
+.new-vehicle-button-1,
+.special-offer-button-1,
+.used-vehicle-button-1 {
+  position: absolute;
+}
+
+/* Element Positioning */
+.number-1-logo-1 {
+  top: 15%;
+  left: 5%;
+  width: 40%;
+}
+
+.website-1 {
+  bottom: 13%;
+  left: 37%;
+  width: 40%;
+}
+
+.phone-number-1 {
+  bottom: 7%;
+  left: 30%;
+  width: 50%;
+}
+
+.address-1 {
+  bottom: 1%;
+  left: 22%;
+  width: 70%;
+}
+
+.new-vehicle-button-1 {
+  top: 47%;
+  left: 63%;
+  width: 30;
+}
+
+.special-offer-button-1 {
+  top: 47%;
+  left: 37.5%;
+  width: 30%;
+}
+
+.used-vehicle-button-1 {
+  top: 47%;
+  left: 12%;
+  width: 30%;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .content {
+    width: 95%;
+    aspect-ratio: 1000 / 1070;
+  }
+
+  .number-1-logo-1 {
+    top: 14.5%;
+    left: 5%;
+    width: 40%;
+  }
+
+  .website-1 {
+    bottom: 13%;
+    left: 35%;
+    width: 30%;
+  }
+
+  .phone-number-1 {
+    bottom: 8%;
+    left: 30%;
+    width: 40%;
+  }
+
+  .address-1 {
+    bottom: 2.5%;
+    left: 18%;
+    width: 60%;
+  }
+
+  .new-vehicle-button-1 {
+    top: 47%;
+    left: 65%;
+    width: 25%;
+  }
+
+  .special-offer-button-1 {
+    top: 47%;
+    left: 37%;
+    width: 25%;
+  }
+
+  .used-vehicle-button-1 {
+    top: 47%;
+    left: 10%;
+    width: 25%;
+  }
+}
+@media (min-width: 770px) and (max-width: 1090px) {
+  .content {
+    width: 95%;
+    aspect-ratio: 1000 / 1070;
+  }
+
+  .number-1-logo-1 {
+    top: 14%;
+    left: 5%;
+    width: 40%;
+  }
+
+  .website-1 {
+    bottom: 12%;
+    left: 32%;
+    width: 35%;
+  }
+
+  .phone-number-1 {
+    bottom: 6.5%;
+    left: 26.5%;
+    width: 45%;
+  }
+
+  .address-1 {
+    bottom: 1%;
+    left: 16%;
+    width: 65%;
+  }
+
+  .new-vehicle-button-1 {
+    top: 47%;
+    left: 64%;
+    width: 26%;
+  }
+
+  .special-offer-button-1 {
+    top: 47%;
+    left: 37.5%;
+    width: 26%;
+  }
+
+  .used-vehicle-button-1 {
+    top: 47%;
+    left: 11%;
+    width: 26%;
+  }
+}
